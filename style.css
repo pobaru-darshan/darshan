@@ -470,7 +470,7 @@
             grid-template-columns: 1fr;
         }
         ..home-img img {
-            width: 90vw;
+            width: 110vw;
         }
         .home-img img {
             margin-top: 2rem;
