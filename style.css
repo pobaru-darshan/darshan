@@ -469,8 +469,9 @@
         .portfolio-container {
             grid-template-columns: 1fr;
         }
-        ..home-img img {
-            width: 110vw;
+       .home-img img {
+            width: 90vw;
+            max-height: 90px;
         }
         .home-img img {
             margin-top: 2rem;
