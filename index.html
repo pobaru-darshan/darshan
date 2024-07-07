@@ -138,20 +138,20 @@
 
         <h2 class="heading ">Contact <span>Me</span></h2>
 
-        <form action=" " name="submit-to-google-sheet ">
+        <form action=" " name="submit-to-google-sheet" method="post" class="contact-form">
 
             <div class="input-box ">
-                <input type="text " name="name " placeholder="Full Name ">
-                <input type="email " name="email " placeholder="Email Address ">
+                <input type="text " name="name" placeholder="Full Name ">
+                <input type="email " name="email" placeholder="Email Address ">
             </div>
 
             <div class="input-box ">
-                <input type="number " name="mobile_number " placeholder="Mobile Number ">
-                <input type="text " name="subject " placeholder="Subject ">
+                <input type="number" name="mobile_number" placeholder="Mobile Number ">
+                <input type="text " name="subject" placeholder="Subject ">
             </div>
 
-            <textarea name="your message " id=" " cols="30 " rows="10 " placeholder="Your Message "></textarea>
-            <input type="submit" value="Send Message " class="btn ">
+            <textarea name="your message" id=" " cols="30 " rows="10 " placeholder="Your Message "></textarea>
+            <input type="submit" name="submit" value="Send Message " class="btn ">
         </form>
 
         <span id="msg "></span>
@@ -165,7 +165,7 @@
         </div>
 
         <div class="footer-icontop ">
-            <a href="#home "><i class='bx bx-up-arrow-alt' ></i></a>
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
         </div>
     </footer>
 
