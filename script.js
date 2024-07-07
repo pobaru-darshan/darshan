@@ -68,7 +68,7 @@ const typed = new Typed('.multiple-text', {
 //contact form
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyBP5nRqtzYsYMCORQYSrO0n2kOOBvAVfdEmUFZtO622kjjUBsQ8GwyFVpe86Xutsck/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw8JZl6_bqk9E8RUa0eRzRdrMA9uZfBkLNh0b9tpwaJyfl2x2vKby8JcSATWqOG2tiL/exec'
 const form = document.forms['submit-to-google-sheet']
 
 
